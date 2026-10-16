@@ -24,6 +24,18 @@ header nav ul {
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
 }
 
+/*Botón idioma*/
+.lang-switch {
+ background-color: transparent;
+ border: 1px solid;
+ padding: 4px 10px;
+ font-weight: bold;
+ transistion: all 0.3s ease;
+}
+.lang-switch:hover {
+ background-color:white;
+ color: black;
+
 nav a {
   color: #fefefe88; /* negro suave para no saturar */
   text-decoration: none;
