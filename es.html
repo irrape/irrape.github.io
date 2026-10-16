@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/css2.css" />
+    <title>Portfolio de Irene</title>
+</head>
+
+<body class="hidden">
+
+    <!-- Loader -->
+    <div id="loader" role="alert" aria-live="assertive" aria-busy="true">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#project1">Proyecto 1: Shiverflix</a></li>
+                <li><a href="#project2">Proyecto 2: Libroasis</a></li>
+                <li><a href="#project3">Proyecto 3: ARKitecture</a></li>
+                <li><a href="#project4">Proyecto 4: Retro Games (El Prototipo)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+
+        <!-- Main Section (oculta al principio) -->
+        <section id="mainsection">
+            <div class="container">
+                <div class="subcontainer">
+                    <h2> Bienvenido al Portfolio de Irene</h2>
+                </div>
+                <div class="introducingcontainer">
+                    <p>
+                        Este espacio muestra todos los proyectos que he desarrollado como programadora.
+                        <br><br>
+                        Continuaré incorporando progresivamente tecnologías más complejas y diversas.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="project1" class="project content">
+
+            <div class="project-text">
+
+                <h2>Proyecto 1: Shiverflix</h2>
+                <h3 hidden>
+
+                    Desarrollado con HTML y CSS responsivo para garantizar la accesibilidad y una experiencia de usuario fluida en todos los dispositivos. <br><br>
+
+
+                    También implementé una integración sencilla de Google Maps para mostrar una ubicación comercial 
+                    ficticia y utilicé código personalizado para animar el logotipo, con el fin de experimentar con divs 
+                    y añadir una identidad dinámica a la plataforma.
+                </h3>
+
+
+                <p class="project-description">
+                    Este fue el primer proyecto personal que construí. <br><br>
+                    Mi objetivo era tener un espacio donde pudiera llevar 
+                    un registro de las películas, series y documentales que he visto y recomendarlos junto 
+                    con las plataformas de streaming donde están disponibles, todo ello de forma sencilla.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies used">
+                    <li>
+                        <img src="images/icons8-html-48.png" alt="HTML5 icon" width="24" height="24" loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/20909/html-5" target="_blank"
+                                rel="noopener noreferrer">HTML icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-css-48.png" alt="CSS3 icon" width="24" height="24" loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/21278/css3" target="_blank" rel="noopener noreferrer">CSS
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+                </ul>
+
+                <div class="project-actions">
+                    <button class="toggle-btn" aria-expanded="false" aria-controls="preview-project1"
+                        onclick="toggleDetails('project1', this)">
+                        See Preview
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="preview-project1" class="preview-details" hidden>
+                <div class="preview-images">
+                    <img src="images/shiverflix1.png" width="470" height="240" alt="Screenshot 2 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/shiverflix3.png" width="470" height="240" alt="Screenshot 3 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/shiver3.png" width="470" height="240" alt="Screenshot 4 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/shiverflix4.png" width="470" height="240"
+                        alt="Streaming platforms view on Shiverflix" loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="project2" class="project content">
+
+            <div class="project-text">
+
+
+                <h2>Proyecto 2: Libroasis</h2>
+                <h3 hidden>
+
+                    Aplicación front-end desarrollada con HTML, CSS responsivo y JavaScript.<br><br>
+
+                    Incluye actualizaciones de contenido en tiempo real mediante AJAX y JSON, 
+                    así como un mapa interactivo con Leaflet que muestra la ubicación ficticia de la librería. <br><br>
+                    También implementé un logotipo animado personalizado y transiciones fluidas para dotar a la plataforma de una identidad dinámica y distintiva.
+                </h3>
+
+
+                <p class="project-description">
+                    Una librería ficticia donde los usuarios pueden explorar y encargar nuevos libros de una forma original.
+                    <br><br>
+
+                    El proyecto incluye formularios y animaciones sutiles para crear una experiencia de usuario más dinámica.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies used">
+                    <li>
+                        <img src="images/icons8-html-48.png" alt="HTML5 icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/20909/html-5" target="_blank"
+                                rel="noopener noreferrer">HTML icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-css-48.png" alt="CSS3 icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/21278/css3" target="_blank" rel="noopener noreferrer">CSS
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-json-48.png" alt="HTML5 icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/114474/json" target="_blank" rel="noopener noreferrer">JSON
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-javascript-48.png" alt="HTML5 icon" width="24" height="24"
+                            loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                                rel="noopener noreferrer">JS icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+
+
+                    <li>
+                        <img src="images/ajax.png" alt="AJAX icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://www.flaticon.es/iconos-gratis/ajax" title="ajax iconos" target="_blank"
+                                rel="noopener noreferrer">AJAX icon</a>
+                        </small>
+                    </li>
+                </ul>
+
+                <div class="project-actions">
+                    <button class="toggle-btn" aria-expanded="false" aria-controls="preview-project2"
+                        onclick="toggleDetails('project2', this)">
+                        See Preview
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="preview-project2" class="preview-details" hidden>
+                <div class="preview-images">
+                    <img src="images/libroasis0.png" width="470" height="240" alt="Portada de Libroasis"
+                        loading="lazy" />
+                    <img src="images/libroasis2.png" width="470" height="240" alt="Non-Fiction section de Libroasis"
+                        loading="lazy" />
+                    <img src="images/libroasis4.png" width="470" height="240" alt="Form of Libroasis" loading="lazy" />
+                    <img src="images/libroasis5.png" width="470" height="240" alt="Interactive map of Libroasis"
+                        loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+        <section id="project3" class="project content">
+
+            <div class="project-text">
+
+
+                <h2>Proyecto 3: Tech Away</h2>
+
+                <h3 hidden>
+                    Aplicación web full-stack desarrollada con PHP y Apache para la lógica del servidor y SQL para las operaciones de base de datos.<br><br>
+
+                    El front-end se desarrolló con HTML, CSS y JavaScript para la validación de formularios y animaciones de interfaz. <br><br>
+
+                    El control de acceso se implementó en función de los roles de usuario, lo que permite que la plataforma 
+                    muestre diferentes páginas y funcionalidades según si el usuario es administrador o usuario normal,
+                    garantizando así la seguridad y una interfaz personalizada.</h3>
+
+
+
+                <p class="project-description">
+                    Este es mi primer proyecto full-stack: una plataforma web colaborativa que muestra los mejores locales de música techno del mund <br><br>
+
+                    Los usuarios pueden registrarse, publicar noticias y reservar citas mediante formularios dinámicos. 
+                    El contenido y el acceso se adaptan al rol del usuario: los administradores gestionan las publicaciones
+                    y las citas, mientras que los usuarios normales tienen funciones limitadas.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies used">
+                    <li>
+                        <img src="images/icons8-html-48.png" alt="HTML5 icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/20909/html-5" target="_blank"
+                                rel="noopener noreferrer">HTML icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-css-48.png" alt="CSS3 icon" width="24" height="24" loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/21278/css3" target="_blank" rel="noopener noreferrer">CSS
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-php-24.png" alt="javascript icon" width="24" height="24"
+                            loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                                rel="noopener noreferrer">JS icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-javascript-48.png" alt="PHP icon" width="24" height="24"
+                            loading="lazy" />
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/f0R4xVI4Sc8O/php" target="_blank"
+                                rel="noopener noreferrer">PHP icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                </ul>
+
+                <div class="project-actions">
+                    <button class="toggle-btn" aria-expanded="false" aria-controls="preview-project3"
+                        onclick="toggleDetails('project3', this)">
+                        See Preview
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="preview-project3" class="preview-details" hidden>
+                <div class="preview-images">
+                    <img src="images/tech.png" width="470" height="240" alt="Screenshot 2 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/tech5.png" width="470" height="240" alt="Screenshot 3 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/tech4.png" width="470" height="240" alt="Screenshot 4 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/tech3.png" width="470" height="240" alt="Streaming platforms view on Shiverflix"
+                        loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+        <section id="project4" class="project content">
+
+            <div class="project-text">
+
+
+                <h2>Project 4: ARKitecture</h2>
+                <h3 hidden>La interfaz de usuario de este proyecto está desarrollada con HTML5 y CSS3,
+                    y mejorada con Bootstrap para un diseño adaptable y sin interrupciones en todos los dispositivos.
+                    <br><br>
+                    He añadido JavaScript para proporcionar interactividad y permitir la gestión dinámica del contenido, incluyendo funciones como animaciones fluidas.
+                </h3>
+
+
+
+                <p class="project-description">
+                    ARKitecture es un proyecto que exhibe obras arquitectónicas icónicas e innovadoras de todo el mundo.<br><br>
+                    Destaca diversos estilos, técnicas e influencias culturales, permitiendo a los usuarios 
+                    explorar diseños inspiradores de las principales ciudades del planeta.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies used">
+                    <li>
+                        <img src="images/icons8-html-48.png" alt="HTML5 icon" width="24" height="24" loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/20909/html-5" target="_blank"
+                                rel="noopener noreferrer">HTML icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-css-48.png" alt="CSS3 icon" width="24" height="24" loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/21278/css3" target="_blank" rel="noopener noreferrer">CSS
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-javascript-48.png" alt="JS icon" width="24" height="24"
+                            loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                                rel="noopener noreferrer">JAVASCRIPT
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+
+                    <li>
+                        <img src="images/icons8-bootstrap-48.png" alt="BOOTSTRAP icon" width="24" height="24"
+                            loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                                rel="noopener noreferrer">BOOTSTRAP
+                                icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+                </ul>
+
+                <div class="project-actions">
+                    <button class="toggle-btn" aria-expanded="false" aria-controls="preview-project4"
+                        onclick="toggleDetails('project4', this)">
+                        See Preview
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="preview-project4" class="preview-details" hidden>
+                <div class="preview-images">
+                    <img src="images/ark0.png" width="470" height="240" alt="Screenshot 2 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/ark1.png" width="470" height="240" alt="Screenshot 3 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/ark2.png" width="470" height="240" alt="Screenshot 4 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/ark3.png" width="470" height="240" alt="Streaming platforms view on Shiverflix"
+                        loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+        <section id="project5" class="project content">
+
+            <div class="project-text">
+
+
+                <h2>Project 5: Retro Games Prototype</h2>
+
+                <h3 hidden>
+                    Retro Games es un prototipo de aplicación móvil desarrollado en Figma con maquetas de alta fidelidad y componentes interactivos. <br><br>
+
+                    Se centra en flujos de aplicación realistas, capacidad de respuesta de la interfaz de usuario y diseño de interacción para juegos móviles.
+                </h3>
+
+
+                <p class="project-description">
+                    Retro Games es un prototipo en Figma de una aplicación móvil con juegos arcade clásicos como Pac-Man y Street Fighter.
+                     <br><br>
+                    Permite a los usuarios jugar a juegos retro nostálgicos en sus teléfonos y competir con otros jugadores en tiempo real.
+                </p>
+
+
+
+                <ul class="tech-list" aria-label="Technologies used">
+                    <li>
+                        <img src="images/icons8-figma-50.png" alt="FIGMA icon" width="24" height="24" loading="lazy" />
+
+                        <small class="icon-attribution">
+                            <a href="https://icons8.com/icon/GflC6KLkdd0Y/figma" target="_blank"
+                                rel="noopener noreferrer">FIGMA icon</a> by
+                            <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+                        </small>
+                    </li>
+                </ul>
+
+                <div class="project-actions">
+                    <button class="toggle-btn" aria-expanded="false" aria-controls="preview-project1"
+                        onclick="toggleDetails('project5', this)">
+                        See Preview
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div id="preview-project5" class="preview-details" hidden>
+                <div class="preview-images">
+                    <img src="images/prototype.png" width="470" height="240" alt="Screenshot 2 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/prot1.png" width="470" height="240" alt="Screenshot 3 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/prot2.png" width="470" height="240" alt="Screenshot 4 of Shiverflix"
+                        loading="lazy" />
+                    <img src="images/prot3.png" width="470" height="240" alt="Streaming platforms view on Shiverflix"
+                        loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>© 2025 Irene Ramírez — All Rights Reserved</p>
+        <p><a href="mailto:irene.ramirezf97@gmail.com">Contact Me</a></p>
+    </footer>
+
+
+    <script src="./javascript/carousel.js"></script>
+</body>
+
+</html>
